@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3908300502660191274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3908300502660191277}
+  - component: {fileID: 3908300502660191276}
+  - component: {fileID: 3908300502660191275}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3908300502660191277
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3908300502660191274}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &3908300502660191276
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3908300502660191274}
+  m_Enabled: 1
+--- !u!114 &3908300502660191275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3908300502660191274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90b05ec90c7674c23b516aa4959c4902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMixerGroup: {fileID: 24300002, guid: eabdae86c3e2c4c22be6360534eb7035, type: 2}
+  sounds:
+  - clip: {fileID: 8300000, guid: d491fc4878a2f4b15b4feff02261dbf9, type: 3}
+    source: {fileID: 0}
+    name: Main_Theme
+    volume: 0.02
+    pitch: 1
+    loop: 1
+  - clip: {fileID: 8300000, guid: 04bfafaa644944dfa9491d423d4baf50, type: 3}
+    source: {fileID: 0}
+    name: Button_Sound
+    volume: 0.06
+    pitch: 1
+    loop: 0
+  - clip: {fileID: 8300000, guid: 4fa1b9f35316649659420174928ad4d0, type: 3}
+    source: {fileID: 0}
+    name: Explosion_Sound_1
+    volume: 0.06
+    pitch: 1
+    loop: 0
+  - clip: {fileID: 8300000, guid: 0912a9a4625e64bb1b438fb53f34b5a7, type: 3}
+    source: {fileID: 0}
+    name: Explosion_Sound_2
+    volume: 0.06
+    pitch: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 5c3d025b219a74134af0e98284eec6d0, type: 3}
+    source: {fileID: 0}
+    name: Fire_Sound
+    volume: 0.07
+    pitch: 1
+    loop: 0
+  - clip: {fileID: 8300000, guid: 463d2e65a83e24a25bf27afe94650539, type: 3}
+    source: {fileID: 0}
+    name: Hit_Sound
+    volume: 0.05
+    pitch: 1
+    loop: 0
+  - clip: {fileID: 8300000, guid: 603bac7aec9394da3be2d7a81a44155e, type: 3}
+    source: {fileID: 0}
+    name: Impact_Sound
+    volume: 0.05
+    pitch: 1
+    loop: 0
+  - clip: {fileID: 8300000, guid: 77b2d78b721dd480892638ba14153289, type: 3}
+    source: {fileID: 0}
+    name: Victory_Sound
+    volume: 0.05
+    pitch: 1
+    loop: 0
+  - clip: {fileID: 8300000, guid: af556b85bad884363a691c50d87b2c34, type: 3}
+    source: {fileID: 0}
+    name: UIButton_Sound
+    volume: 0.03
+    pitch: 1
+    loop: 0
